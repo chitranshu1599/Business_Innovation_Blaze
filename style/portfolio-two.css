@@ -1,0 +1,1754 @@
+.back-button {
+    margin-top: 35px;
+}
+
+.back-button .back-arrow {
+    font-family: 'Poppins';
+    text-decoration: none;
+    color: #E30B21;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    text-align: justify;
+}
+
+.top-banner-section .top-banner {
+    background-image: linear-gradient(128.6deg, #000000 15.02%, rgba(217, 217, 217, 0) 60.93%), url("/assets/images/medicacare-banner.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45vh;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.top-banner .banner-heading {
+    font-family: 'Poppins';
+    color: #FFFFFF;
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 75px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    padding: 10px 20px;
+}
+
+.medicacare-content {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.medicacare-content .content-part-left {
+    margin: 20px 0px;
+}
+
+.medicacare-content .content-part-left .content-head {
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.medicacare-content .content-part-left .content-para {
+    font-family: 'Poppins';
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    text-align: justify;
+    margin-bottom: 0;
+}
+
+.medicacare-content .company-address {
+    display: flex;
+    justify-content: center;
+}
+
+.medicacare-content .add-logo {
+    width: 1.5rem;
+    margin-right: 10px;
+}
+
+.medicacare-content .company-add {
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.medicacare-content .connect-button {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+}
+
+.btn-connect {
+    color: #FFFFFF;
+    border: #E30B21;
+    background-color: #E30B21;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    width: 10rem;
+}
+
+.btn-connect:hover {
+    color: #FFFFFF;
+}
+
+.medicacare-content .right-content-details .content-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.medicacare-content .right-content-details .details-left {
+    font-family: 'Poppins';
+    color: #00004D;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    width: 8rem;
+}
+
+.medicacare-content .right-content-details .details-right {
+    font-family: 'Poppins';
+    color: #00004D;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.02em;
+    text-align: right;
+    width: 8rem;
+}
+
+.add-new-pitch-section .add-new-pitch-heading {
+    font-family: 'Poppins';
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 75px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.hr-pitch {
+    border: 1px solid #00004D;
+    margin: 1rem 0;
+}
+
+.form-content .form-margin {
+    margin-bottom: 40px;
+}
+
+.form-content .form-label {
+    font-family: 'Poppins';
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.form-content .form-control {
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.form-content .connect-button {
+    margin-bottom: 30px;
+}
+
+.form-content .btn-connect {
+    width: 13rem;
+}
+
+.fundraise-content .fundraise-para {
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.fundraise-card .card {
+    border-radius: 80px;
+    height: 28rem;
+    padding: 20px;
+}
+
+.fundraise-card .fundraise-img {
+    display: flex;
+    justify-content: center;
+    height: 15rem;
+}
+
+.fundraise-card img {
+    width: 20rem;
+}
+
+.fundraise-card .card-text {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.fundraise-card .card-title {
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.fundraise-content .form-content {
+    margin-top: 50px;
+}
+
+.fundraise-content .fund-form-para {
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    text-align: justify;
+    margin: 25px 0px
+}
+
+.fundraise-content .form-content label {
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+}
+
+.fundraise-content .form-content .form-check {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 1.5rem;
+    padding-left: 2.4em;
+    margin-bottom: 0.125rem;
+}
+
+.fundraise-content .form-content .form-check-input {
+    width: 3em;
+    height: 2em;
+    margin-right: 20px;
+}
+
+.fundraise-content .form-content .form-check-input:checked {
+    background-color: #00004D;
+    border-color: #00004D;
+}
+
+.fundraise-content .general .form-select {
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.general .plus-form .input-group .btn {
+    position: absolute;
+    right: 10px;
+    top: 6px;
+    width: 1.5rem;
+    height: 1.5rem;
+    border-radius: 20px !important;
+    z-index: 0;
+}
+
+.btn-plus {
+    color: #fff;
+    background-color: #000000;
+    border-color: #000000;
+    font-size: 17px;
+    padding: 0px 5px;
+}
+
+.btn-plus:hover {
+    color: #fff;
+}
+
+.general .chip {
+    display: inline-block;
+    background-color: #DEDEFF;
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    padding: 0 13px;
+    border-radius: 10px;
+}
+
+.top-banner-section .padding {
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 500px;
+}
+
+.medicacare-content .pitch-heading {
+    font-family: 'Poppins';
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.my-profile-section .my-profile {
+    margin-top: 80px;
+}
+
+.my-profile .profile-heading {
+    font-family: 'Poppins';
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 75px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-top: 30px;
+}
+
+.my-profile .about-heading {
+    font-family: 'Poppins';
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.my-profile .about-para {
+    font-family: 'Poppins';
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.my-profile .about-list-head {
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    text-align: justify;
+}
+
+.my-profile .about-list {
+    font-family: 'Poppins';
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    text-align: justify;
+}
+
+.my-profile .profile-logo {
+    width: 25rem;
+}
+
+.my-profile .profile-address {
+    margin-top: 15px;
+}
+
+.my-profile .add-logo {
+    width: 1.5rem;
+    margin-right: 10px;
+}
+
+.my-profile .company-add {
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.my-profile .profile-money {
+    font-family: 'Poppins';
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin: 20px 0px;
+}
+
+.my-profile .money-area {
+    font-family: 'Poppins';
+    color: #E30B21;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-left: 5px;
+}
+
+.my-profile .profile-area {
+    font-family: 'Poppins';
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.my-profile .area-sector {
+    font-family: 'Poppins';
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    margin-left: 5px;
+}
+
+.my-profile .connect-button {
+    display: flex;
+    justify-content: center;
+}
+
+.my-profile .btn-connect {
+    width: 100%;
+}
+
+.subscription-model .model-margin {
+    margin: 30px 0px;
+}
+
+.subscription-model .card {
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 2px solid rgba(0, 0, 0, .125);
+    border-radius: 80px;
+    height: 70vh;
+}
+
+.subscription-model .active {
+    border: 2px solid #E30B21;
+}
+
+.subscription-model .card-body {
+    padding: 2rem 3rem;
+}
+
+.subscription-model .card-title {
+    font-family: 'Poppins';
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0.02em;
+    text-align: center;
+}
+
+.subscription-model .card-para {
+    margin: 20px 0px;
+}
+
+.subscription-model .card-text {
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.subscription-model .connect-button {
+    margin-bottom: 60px;
+}
+
+.subscription-model .btn-connect {
+    width: 7rem;
+}
+
+.subscription-model .model-card-list {
+    font-family: 'Poppins';
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 35px;
+    letter-spacing: 0.095em;
+    text-align: left;
+}
+
+.subscription-model .sub-content-head {
+    font-family: 'Poppins';
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 45px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.subscription-model .sub-content-para {
+    font-family: 'Poppins';
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+@media only screen and (max-width: 551px) and (min-width: 280px) {
+
+
+    .medicacare-content {
+        margin-top: 10px;
+        margin-bottom: 40px;
+        position: relative;
+    }
+
+    .medicacare-content .content-left {
+        margin-top: 22rem;
+    }
+
+    .medicacare-content .content-right {
+        position: absolute;
+        top: 0;
+        width: 100%;
+    }
+
+    .medicacare-content .mob-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .my-portfolio .top-padding {
+        padding: 30px 20px 0px 20px;
+    }
+
+    .back-button .back-arrow {
+        font-size: 14px;
+    }
+
+    .top-banner .banner-heading {
+        font-size: 25px;
+        line-height: 40px;
+        padding: 5px 15px;
+    }
+
+    .top-banner-section .top-banner {
+        height: 29vh;
+    }
+
+    .top-banner-section .top-banner-margin {
+        margin-top: 110px;
+    }
+
+    .medicacare-content .content-part-left .content-head {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .medicacare-content .content-part-left .content-para {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .medicacare-content .right-content-details {
+        margin-top: 10px;
+    }
+
+    .medicacare-content .company-address {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .medicacare-content .content-part-right .content-logo {
+        width: 9rem;
+    }
+
+    .medicacare-content .add-logo {
+        width: 1rem;
+        margin-right: 5px;
+    }
+
+    .medicacare-content .company-add {
+        font-size: 13px;
+        line-height: 60px;
+    }
+
+    .btn-connect {
+        font-size: 12px;
+        line-height: 25px;
+        width: 11rem;
+    }
+
+    .medicacare-content .right-content-details .details-left {
+        font-size: 14px;
+        line-height: 25px;
+        width: 10rem;
+    }
+
+    .medicacare-content .right-content-details .details-right {
+        font-size: 14px;
+        line-height: 25px;
+        width: 10rem;
+    }
+
+    .add-new-pitch-section .add-new-pitch-heading {
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .form-content .form-label {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .form-content .form-control {
+        font-size: 12px;
+        line-height: 19px;
+    }
+
+    .fundraise-content .fundraise-para {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .fundraise-card .card {
+        border-radius: 50px;
+        height: 24rem;
+        padding: 10px;
+        margin-bottom: 15px;
+    }
+
+    .fundraise-card img {
+        width: 18rem;
+    }
+
+    .fundraise-card .fundraise-img {
+        height: 15rem;
+    }
+
+    .fundraise-card .card-text {
+        font-size: 10px;
+        line-height: 18px;
+    }
+
+    .fundraise-card .card-title {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .fundraise-content .fund-form-para {
+        font-size: 14px;
+        line-height: 22px;
+        margin: 18px 0px;
+    }
+
+    .fundraise-content .mob-margin {
+        margin-bottom: 15px;
+    }
+
+    .fundraise-content .form-content .form-check {
+        padding-left: 1.5em;
+    }
+
+    .fundraise-content .form-content .form-check-input {
+        width: 7em;
+        height: 1.5em;
+        margin-right: 15px;
+    }
+
+    .fundraise-content .form-content label {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .form-content .btn-connect {
+        width: 10rem;
+    }
+
+    .fundraise-content .general-heading {
+        font-size: 20px;
+    }
+
+    .form-content .form-margin {
+        margin-bottom: 20px;
+    }
+
+    .general .chip {
+        font-size: 12px;
+        line-height: 30px;
+        padding: 0 6px;
+        border-radius: 5px;
+        margin-top: 10px;
+    }
+
+    .fundraise-content .general .form-select {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .general .plus-form .input-group .btn {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+
+    .btn-plus {
+        font-size: 12px;
+        padding: 0px 4px;
+    }
+
+    .my-profile-section .my-profile {
+        margin-top: 40px;
+        margin-bottom: 20px;
+        position: relative;
+    }
+
+    .my-profile .profile-logo {
+        width: 8rem;
+    }
+
+    .my-profile .profile-right {
+        position: absolute;
+        top: 4%;
+    }
+
+    .my-profile .profile-pic {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+
+    .my-profile .profile-right-content {
+        margin-left: 10px;
+    }
+
+    .my-profile .profile-heading {
+        font-size: 28px;
+        line-height: 40px;
+        margin-top: 0px;
+    }
+
+    .my-profile .profile-about-margin {
+        margin-top: 17rem;
+    }
+
+    .my-profile .about-heading {
+        font-size: 18px;
+        line-height: 25px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .my-profile .about-para {
+        font-size: 13px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+
+    .my-profile .about-list-head {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .my-profile .about-list {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .my-profile .add-logo {
+        width: 1.2rem;
+        margin-right: 4px;
+    }
+
+    .my-profile .company-add {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .my-profile .profile-money {
+        font-size: 14px;
+        line-height: 20px;
+        margin: 5px 0px;
+    }
+
+    .my-profile .money-area {
+        font-size: 14px;
+        line-height: 20px;
+        margin-left: 0px;
+    }
+
+    .my-profile .profile-area {
+        font-size: 14px;
+        line-height: 20px;
+        margin-bottom: 0px;
+    }
+
+    .my-profile .area-sector {
+        font-size: 14px;
+        line-height: 20px;
+        margin-left: 0px;
+    }
+
+    .form-content .form-select {
+        font-size: 12px;
+    }
+
+
+    .subscription-model{
+        margin-bottom: 30px;
+    }
+
+    .subscription-model .card {
+        border-radius: 20px;
+        height: 60vh;
+        margin-bottom: 20px;
+    }
+
+    .subscription-model .card-body {
+        padding: 1rem 0.8rem;
+    }
+
+    .subscription-model .card-title {
+        font-size: 20px;
+        line-height: 25px;
+        text-align: left;
+    }
+
+    .subscription-model .card-text {
+        font-size: 15px;
+        line-height: 25px;
+        font-style: normal;
+        text-align: left;
+    }
+
+    .subscription-model .card-para {
+        margin: 15px 0px;
+    }
+
+    .subscription-model .btn-connect {
+        width: 17rem;
+    }
+
+    .subscription-model .model-card-list {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .subscription-model .model-ul {
+        padding-left: 1.5rem;
+    }
+
+    .subscription-model .connect-button {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .subscription-model .sub-content-head {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .subscription-model .sub-content-para {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .content-part-right img {
+        width: 9rem;
+    }
+
+    .medicacare-content .pitch-heading {
+        font-size: 18px;
+        line-height: 25px;
+        margin-top: 20px;
+    }
+}
+
+
+@media only screen and (max-width: 767px) and (min-width: 550px) {}
+
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+    .my-portfolio .top-padding {
+        padding: 30px 20px 0px 20px;
+    }
+
+    .back-button .back-arrow {
+        font-size: 14px;
+    }
+
+    .top-banner .banner-heading {
+        font-size: 30px;
+        line-height: 50px;
+        padding: 5px 15px;
+    }
+
+    .top-banner-section .top-banner {
+        height: 29vh;
+    }
+
+    .medicacare-content .content-part-left .content-head {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .medicacare-content .content-part-left .content-para {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .medicacare-content .content-part-right .content-logo {
+        width: 8rem;
+    }
+
+    .medicacare-content .add-logo {
+        width: 0.6rem;
+        margin-right: 5px;
+    }
+
+    .medicacare-content .company-add {
+        font-size: 9px;
+        line-height: 16px;
+    }
+
+    .btn-connect {
+        font-size: 10px;
+        line-height: 15px;
+        width: 5rem;
+    }
+
+    .medicacare-content .right-content-details .details-left {
+        font-size: 10px;
+        line-height: 20px;
+        width: 3rem;
+    }
+
+    .medicacare-content .right-content-details .details-right {
+        font-size: 10px;
+        line-height: 20px;
+        width: 4.5rem;
+    }
+
+    .add-new-pitch-section .add-new-pitch-heading {
+        font-size: 30px;
+        line-height: 50px;
+    }
+
+    .form-content .form-label {
+        font-size: 11px;
+        line-height: 20px;
+    }
+
+    .form-content .form-control {
+        font-size: 10px;
+        line-height: 16px;
+    }
+
+    .fundraise-content .fundraise-para {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .fundraise-card .card {
+        border-radius: 50px;
+        height: 28rem;
+        padding: 10px;
+    }
+
+    .fundraise-card img {
+        width: 8rem;
+    }
+
+    .fundraise-card .fundraise-img {
+        height: 7rem;
+    }
+
+    .fundraise-card .card-text {
+        font-size: 10px;
+        line-height: 18px;
+    }
+
+    .fundraise-card .card-title {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .fundraise-content .fund-form-para {
+        font-size: 14px;
+        line-height: 22px;
+        margin: 18px 0px;
+    }
+
+    .fundraise-content .form-content .form-check {
+        padding-left: 1.5em;
+    }
+
+    .fundraise-content .form-content .form-check-input {
+        width: 4em;
+        height: 1.5em;
+        margin-right: 15px;
+    }
+
+    .fundraise-content .form-content label {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .form-content .btn-connect {
+        width: 8rem;
+    }
+
+    .fundraise-content .general-heading {
+        font-size: 20px;
+    }
+
+    .form-content .form-margin {
+        margin-bottom: 20px;
+    }
+
+    .general .chip {
+        font-size: 10px;
+        line-height: 30px;
+        padding: 0 6px;
+        border-radius: 10px;
+    }
+
+    .fundraise-content .general .form-select {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .general .plus-form .input-group .btn {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+
+    .btn-plus {
+        font-size: 12px;
+        padding: 0px 4px;
+    }
+
+    .my-profile .profile-logo {
+        width: 11.5rem;
+    }
+
+    .my-profile .profile-heading {
+        font-size: 30px;
+        line-height: 50px;
+        margin-top: 10px;
+    }
+
+    .my-profile .about-heading {
+        font-size: 18px;
+        line-height: 25px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+
+    .my-profile .about-para {
+        font-size: 13px;
+        line-height: 20px;
+        margin-bottom: 10px;
+    }
+
+    .my-profile .about-list-head {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .my-profile .about-list {
+        font-size: 13px;
+        line-height: 20px;
+    }
+
+    .my-profile .add-logo {
+        width: 0.8rem;
+        margin-right: 4px;
+    }
+
+    .my-profile .company-add {
+        font-size: 9px;
+        line-height: 10px;
+    }
+
+    .my-profile .profile-money {
+        font-size: 9px;
+        line-height: 15px;
+        margin: 10px 0px;
+    }
+
+    .my-profile .money-area {
+        font-size: 9px;
+        line-height: 15px;
+    }
+
+    .my-profile .profile-area {
+        font-size: 9px;
+        line-height: 15px;
+        margin-bottom: 10px;
+    }
+
+    .my-profile .area-sector {
+        font-size: 9px;
+        line-height: 15px;
+        margin-left: 5px;
+    }
+
+    .form-content .form-select {
+        font-size: 10px;
+    }
+
+    .subscription-model .card {
+        border-radius: 50px;
+    }
+
+    .subscription-model .card-body {
+        padding: 1.5rem 0.8rem;
+    }
+
+    .subscription-model .card-title {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .subscription-model .card-text {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .subscription-model .btn-connect {
+        width: 5rem;
+    }
+
+    .subscription-model .model-card-list {
+        font-size: 12px;
+        line-height: 22px;
+    }
+
+    .subscription-model .model-ul {
+        padding-left: 1.5rem;
+    }
+
+    .subscription-model .sub-content-head {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .subscription-model .sub-content-para {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .content-part-right img {
+        width: 9rem;
+    }
+
+    .medicacare-content .pitch-heading {
+        font-size: 18px;
+        line-height: 25px;
+        margin-top: 20px;
+    }
+
+}
+
+
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+    .my-portfolio .top-padding {
+        padding: 30px 35px 0px 35px;
+    }
+
+    .back-button .back-arrow {
+        font-size: 16px;
+    }
+
+    .top-banner .banner-heading {
+        font-size: 40px;
+        line-height: 60px;
+        padding: 10px 20px;
+    }
+
+    .top-banner-section .top-banner {
+        height: 35vh;
+    }
+
+    .medicacare-content .content-part-left .content-head {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .medicacare-content .content-part-left .content-para {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .medicacare-content .content-part-right .content-logo {
+        width: 11.5rem;
+    }
+
+    .medicacare-content .add-logo {
+        width: 1rem;
+        margin-right: 8px;
+    }
+
+    .medicacare-content .company-add {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .btn-connect {
+        font-size: 14px;
+        line-height: 20px;
+        width: 7rem;
+    }
+
+    .medicacare-content .right-content-details .details-left {
+        font-size: 13px;
+        line-height: 20px;
+        width: 4rem;
+    }
+
+    .medicacare-content .right-content-details .details-right {
+        font-size: 13px;
+        line-height: 20px;
+        width: 5rem;
+    }
+
+    .add-new-pitch-section .add-new-pitch-heading {
+        font-size: 40px;
+        line-height: 60px;
+    }
+
+    .form-content .form-label {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .form-content .form-control {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .fundraise-content .fundraise-para {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .fundraise-card .card {
+        border-radius: 50px;
+        height: 28rem;
+        padding: 10px;
+    }
+
+    .fundraise-card img {
+        width: 12rem;
+    }
+
+    .fundraise-card .fundraise-img {
+        height: 10rem;
+    }
+
+    .fundraise-card .card-text {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .fundraise-card .card-title {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .fundraise-content .fund-form-para {
+        font-size: 16px;
+        line-height: 27px;
+        margin: 22px 0px;
+    }
+
+    .fundraise-content .form-content .form-check {
+        padding-left: 1.5em;
+    }
+
+    .fundraise-content .form-content .form-check-input {
+        width: 5em;
+        height: 2em;
+        margin-right: 15px;
+    }
+
+    .fundraise-content .form-content label {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .form-content .btn-connect {
+        width: 11rem;
+    }
+
+    .fundraise-content .general-heading {
+        font-size: 25px;
+    }
+
+    .form-content .form-margin {
+        margin-bottom: 30px;
+    }
+
+    .general .chip {
+        font-size: 12px;
+        line-height: 32px;
+        padding: 0 8px;
+    }
+
+    .fundraise-content .general .form-select {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .general .plus-form .input-group .btn {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+
+    .btn-plus {
+        font-size: 12px;
+        padding: 0px 4px;
+    }
+
+    .my-profile .profile-logo {
+        width: 14.7rem;
+    }
+
+    .my-profile .profile-heading {
+        font-size: 40px;
+        line-height: 60px;
+        margin-top: 15px;
+    }
+
+    .my-profile .about-heading {
+        font-size: 22px;
+        line-height: 35px;
+        margin-top: 25px;
+        margin-bottom: 10px;
+    }
+
+    .my-profile .about-para {
+        font-size: 15px;
+        line-height: 22px;
+        margin-bottom: 15px;
+    }
+
+    .my-profile .about-list-head {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    .my-profile .about-list {
+        font-size: 15px;
+        line-height: 22px;
+    }
+
+    .my-profile .add-logo {
+        width: 0.8rem;
+        margin-right: 4px;
+    }
+
+    .my-profile .company-add {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .my-profile .profile-money {
+        font-size: 15px;
+        line-height: 25px;
+        margin: 15px 0px;
+    }
+
+    .my-profile .money-area {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .my-profile .profile-area {
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+
+    .my-profile .area-sector {
+        font-size: 15px;
+        line-height: 25px;
+        margin-left: 5px;
+    }
+
+    .form-content .form-select {
+        font-size: 13px;
+    }
+
+    .subscription-model .card {
+        border-radius: 65px;
+        height: 80vh;
+    }
+
+    .subscription-model .card-body {
+        padding: 2rem 1rem;
+    }
+
+    .subscription-model .card-title {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .subscription-model .card-text {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .subscription-model .btn-connect {
+        width: 7rem;
+    }
+
+    .subscription-model .model-card-list {
+        font-size: 17px;
+        line-height: 30px;
+    }
+
+    .subscription-model .model-ul {
+        padding-left: 1.5rem;
+    }
+
+    .subscription-model .sub-content-head {
+        font-size: 22px;
+        line-height: 40px;
+    }
+
+    .subscription-model .sub-content-para {
+        font-size: 18px;
+        line-height: 30px;
+    }
+
+    .content-part-right img {
+        width: 11.6rem;
+    }
+
+    .medicacare-content .pitch-heading {
+        font-size: 22px;
+        line-height: 30px;
+        margin-top: 25px;
+    }
+}
+
+
+@media only screen and (max-width: 1450px) and (min-width: 1200px) {
+    .back-button .back-arrow {
+        font-size: 18px;
+    }
+
+    .top-banner .banner-heading {
+        font-size: 50px;
+        line-height: 75px;
+        padding: 10px 20px;
+    }
+
+    .top-banner-section .top-banner {
+        height: 45vh;
+    }
+
+    .medicacare-content .content-part-left .content-head {
+        font-size: 18px;
+        line-height: 27px;
+    }
+
+    .medicacare-content .content-part-left .content-para {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .medicacare-content .content-part-right .content-logo {
+        width: 16rem;
+    }
+
+    .medicacare-content .add-logo {
+        width: 1.5rem;
+        margin-right: 10px;
+    }
+
+    .medicacare-content .company-add {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .btn-connect {
+        font-size: 16px;
+        line-height: 25px;
+        width: 10rem;
+    }
+
+    .medicacare-content .right-content-details .details-left {
+        font-size: 17px;
+        line-height: 27px;
+        width: 7rem;
+    }
+
+    .medicacare-content .right-content-details .details-right {
+        font-size: 17px;
+        line-height: 27px;
+        width: 8rem;
+    }
+
+    .add-new-pitch-section .add-new-pitch-heading {
+        font-size: 50px;
+        line-height: 75px;
+    }
+
+    .form-content .form-label {
+        font-size: 17px;
+        line-height: 28px;
+    }
+
+    .form-content .form-control {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .fundraise-content .fundraise-para {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .fundraise-card .card {
+        border-radius: 80px;
+        height: 28rem;
+        padding: 10px;
+    }
+
+    .fundraise-card img {
+        width: 18rem;
+    }
+
+    .fundraise-card .fundraise-img {
+        height: 14rem;
+    }
+
+    .fundraise-card .card-text {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .fundraise-card .card-title {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .fundraise-content .fund-form-para {
+        font-size: 18px;
+        line-height: 30px;
+        margin: 25px 0px;
+    }
+
+    .fundraise-content .form-content .form-check {
+        padding-left: 1.5em;
+    }
+
+    .fundraise-content .form-content .form-check-input {
+        width: 4em;
+        height: 2em;
+        margin-right: 18px;
+    }
+
+    .fundraise-content .form-content label {
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .form-content .btn-connect {
+        width: 13rem;
+    }
+
+    .fundraise-content .general-heading {
+        font-size: 30px;
+    }
+
+    .form-content .form-margin {
+        margin-bottom: 30px;
+    }
+
+    .general .chip {
+        font-size: 14px;
+        line-height: 38px;
+        padding: 0 8px;
+    }
+
+    .fundraise-content .general .form-select {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .general .plus-form .input-group .btn {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+
+    .btn-plus {
+        font-size: 12px;
+        padding: 0px 4px;
+    }
+
+    .my-profile .profile-logo {
+        width: 20rem;
+    }
+
+    .my-profile .profile-heading {
+        font-size: 50px;
+        line-height: 75px;
+        margin-top: 25px;
+    }
+
+    .my-profile .about-heading {
+        font-size: 25px;
+        line-height: 40px;
+        margin-top: 30px;
+        margin-bottom: 15px;
+    }
+
+    .my-profile .about-para {
+        font-size: 17px;
+        line-height: 25px;
+        margin-bottom: 20px;
+    }
+
+    .my-profile .about-list-head {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    .my-profile .about-list {
+        font-size: 17px;
+        line-height: 25px;
+    }
+
+    .my-profile .add-logo {
+        width: 1.5rem;
+        margin-right: 5px;
+    }
+
+    .my-profile .company-add {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .my-profile .profile-money {
+        font-size: 18px;
+        line-height: 30px;
+        margin: 20px 0px;
+    }
+
+    .my-profile .money-area {
+        font-size: 15px;
+        line-height: 25px;
+    }
+
+    .my-profile .profile-area {
+        font-size: 18px;
+        line-height: 30px;
+        margin-bottom: 25px;
+    }
+
+    .my-profile .area-sector {
+        font-size: 18px;
+        line-height: 30px;
+        margin-left: 5px;
+    }
+
+    .form-content .form-select {
+        font-size: 14px;
+    }
+
+    .subscription-model .card {
+        border-radius: 80px;
+    }
+
+    .subscription-model .card-body {
+        padding: 2rem 1rem;
+    }
+
+    .subscription-model .card-title {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .subscription-model .card-text {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .subscription-model .btn-connect {
+        width: 7rem;
+    }
+
+    .subscription-model .model-card-list {
+        font-size: 20px;
+        line-height: 35px;
+    }
+
+    .subscription-model .model-ul {
+        padding-left: 1.5rem;
+    }
+
+    .subscription-model .sub-content-head {
+        font-size: 25px;
+        line-height: 45px;
+    }
+
+    .subscription-model .sub-content-para {
+        font-size: 22px;
+        line-height: 35px;
+    }
+
+    .content-part-right img {
+        width: 16rem;
+    }
+
+    .medicacare-content .pitch-heading {
+        font-size: 25px;
+        line-height: 40px;
+        margin-top: 30px;
+    }
+}

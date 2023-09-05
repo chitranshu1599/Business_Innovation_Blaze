@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit Pitch</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/style/portfolio.css">
+    <link rel="stylesheet" href="./style/common.css">
+    <link rel="stylesheet" href="./style/portfolio-two.css">
+</head>
+
+<body>
+    <div class="my-portfolio-section">
+        <div class="my-portfolio">
+            <div class="row m-0">
+                <div class="col-lg-2 col-md-2 col-sm-12 left-port">
+                    <div class="portfolio-left">
+                        <div class="portfolio-left-img">
+                            <a href="index.html"><img class="portfolio-logo" src="/assets/images/BIB-Logo.svg" alt="portfolio-logo"></a>
+                        </div>
+                        <div class="portfolio-list">
+                            <ul>
+                                <li class="list active-op"><a class="list-anchor" href="my-portfolio.html">Invest</a></li>
+                                <li class="list"><a class="list-anchor" href="fundraise.html">Fundraise</a></li>
+                                <li class="list"><a class="list-anchor" href="my_pitches.html">My Pitches</a></li>
+                                <li class="list"><a class="list-anchor" href="messages.html">Messages</a></li>
+                                <li class="list"><a class="list-anchor" href="my-profile.html">Company Profile</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-10 col-md-10 col-sm-12 right-port">
+                    <div class="top-padding">
+                        <div class="portfolio-right">
+                            <div class="search-part">
+                                <a class="mobile_nav_logo" href="index.html"><img
+                                        src="./assets/images/mobile_logo.png" alt=""></a>
+                                <form class="top-bar">
+                                    <input class="form-control me-2" type="search" placeholder="Search"
+                                        aria-label="Search">
+                                    <li class="dropdown search-list" style="list-style: none;">
+                                        <a class="dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                            aria-expanded="false">
+                                            <img class="bib-nav-user" src="./assets/images/red-user.svg" alt="red-user">
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><a class="dropdown-item" href="subscription-model.html">Subscribe</a></li>
+                                            <li><a class="dropdown-item" href="my-profile.html">My Profile</a></li>
+                                            <li>
+                                                <hr class="dropdown-divider">
+                                            </li>
+                                            <li><a class="dropdown-item" href="sign_up.html">Sign Out</a></li>
+                                        </ul>
+                                    </li>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="add-new-pitch-section">
+                            <h1 class="add-new-pitch-heading">Edit Pitch</h1>
+                            <div class="fundraise-content">
+                                <hr class="hr-pitch">
+                                <form class="form-content m-0">
+                                    <div class="row">
+                                        <div class="col-lg-3 col-md-3 col-sm-6">
+                                            <div class="form-margin">
+                                                <label for="title" class="form-label">Title</label>
+                                                <input type="text" class="form-control" id="title"
+                                                    placeholder="Farmzilla">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 col-sm-6">
+                                            <div class="form-margin">
+                                                <label for="title" class="form-label">To raise</label>
+                                                <input type="text" class="form-control" id="title"
+                                                    placeholder="250003665">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 col-sm-6">
+                                            <div class="form-margin">
+                                                <label for="pitchdoc" class="form-label">Cover Image</label>
+                                                <input type="file" class="form-control" id="pitchdoc" multiple>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-3 col-md-3 col-sm-6">
+                                            <div class="form-margin">
+                                                <label for="pitchdoc" class="form-label">Pitch Doc</label>
+                                                <input type="file" class="form-control" id="pitchdoc" multiple>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 col-md-12 col-sm-12">
+                                            <div class="form-margin">
+                                                <label for="summary" class="form-label">Short Summary</label>
+                                                <textarea class="form-control" id="summary" rows="8"
+                                                    placeholder="FarmZilla is a cutting-edge mobile application that is transforming the way farmers manage their agricultural operations. This innovative app serves as a comprehensive toolkit, empowering farmers to streamline tasks, optimize resources, and make data-driven decisions for increased productivity and sustainability."></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-12 col-md-12 col-sm-12">
+                                            <div class="form-margin">
+                                                <label for="summary" class="form-label">Highlights</label>
+                                                <textarea class="form-control" id="summary" rows="8"
+                                                    placeholder="Comprehensive Toolkit: FarmZilla serves as an all-in-one solution for farmers, providing tools to streamline tasks, optimize resources, and make data-driven decisions.Enhanced Productivity: Farmers can effortlessly manage various farm aspects, including planting, irrigation, pest control, and harvest planning, leading to improved productivity.Data Integration: The app integrates real-time weather data, crop analytics, and predictive algorithms to empower farmers with informed decision-making capabilities.User-Friendly Interface: Designed for farmers of all tech backgrounds, FarmZilla boasts an intuitive and easy-to-use interface.Collaboration and Coordination: FarmZilla facilitates seamless communication and task coordination among team members.Environmental Responsibility: The app contributes to more sustainable farming practices, aligning with the shift toward environmentally responsible agriculture.Agri-Tech Innovation: FarmZilla is at the forefront of agricultural technology, driving positive change and innovation within the industry."></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="connect-button">
+                                            <button class="btn btn-connect">Save & Continue</button>
+                                        </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="mobile-bottom-nav">
+        <a href="my-portfolio.html" class="btn bottom-nav-option"><img src="./assets/images/mob-bottom-nav/invest.svg" alt=""><span
+                class="active-mob">Invest</span></a>
+        <a href="fundraise.html" class="btn bottom-nav-option"><img src="./assets/images/mob-bottom-nav/fund.svg"
+                alt=""><span>Fundraise</span></a>
+        <a href="messages.html" class="btn bottom-nav-option"><img src="./assets/images/mob-bottom-nav/chat.svg"
+                alt=""><span>Messages</span></a>
+        <a href="my_pitches.html" class="btn bottom-nav-option"><img src="./assets/images/mob-bottom-nav/pitch.svg"
+                alt=""><span>Pitches</span></a>
+        <a href="my-profile.html" class="btn bottom-nav-option"><img src="./assets/images/mob-bottom-nav/profile.svg"
+                alt=""><span>Profiles</span></a>
+    </div>
+
+
+
+     <div class="footer-div">
+        <footer class="container-fulid">
+            <div class="bib-footer container">
+                <div class="footer-data">
+                    <div class="footer-logo">
+                      <img src="./assets/images/Nav/logo.png" alt="">
+                  </div>
+                  <div class="foot-data">
+                      <a href="./about_us.html">About Us</a>
+                      <a href="./contact_us.html">Contact Us</a>
+                      <a href="./login.html">Login</a>
+                      <a href="./sign_up.html">Sign Up</a>
+                  </div>
+                  <div class="foot-data">
+                      <a href="#">Categories</a>
+                      <a href="./investors.html">Meet Our Investors</a>
+                      <a href="./success_stories.html">Startup Success Stories</a>
+                  </div>
+                  <div class="foot-data">
+                      <a href="./return_policy.html">Return, Refund & Cancelation</a>
+                      <a href="./shipping_policy.html">Shipping & delivery policy</a>
+                      <a href="./pricing_policy.html">Pricing Policy</a>
+                  </div>
+                </div>
+                <div class="foot-data-bottom">
+                    <div class="contact-options">
+                        <div class="foot-img">
+                            <img src="./assets/images/Nav/map.png" alt="">  
+                        </div>
+                        <p>123, First street, third building, area name, state name, code, country</p>
+                    </div>
+                    <div class="contact-options">
+                        <div class="foot-img">
+                            <img id="foot-phone-img" src="./assets/images/Nav/phone.png" alt="">
+                        </div>
+                        <p>1234567891, 1234567891</p>
+                    </div>
+                </div>
+            </div>
+            </footer>
+            <div class="bottom-tags container">
+            <div class="left">
+                <a href="./terms_&_conditions.html">Terms and Conditions</a>
+                <a href="./privacy_policy.html">Privacy Policy</a>
+            </div>
+            <p class="right">© 2023 Business Innovation Blaze - Linking Angel Investors with Entrepreneurs on a Global and Local Scale</p>
+            </div>
+        </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>

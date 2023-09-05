@@ -1,0 +1,430 @@
+/* Global_CSS */
+
+.head-data {
+    color: white;
+    width: 60%;
+}
+
+.head-data h1 {
+    font-size: 4rem;
+    margin-bottom: 1.5rem;
+    font-family: 'DM Serif Display', serif;
+}
+
+.head-data p {
+    font-size: 1.1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.page-heading h2 {
+    font-family: 'DM Serif Display', serif;
+    color: #000;
+    margin-bottom: 1.8rem;
+}
+
+.page-heading p {
+    margin: 1.5rem auto;
+    color: #2A2A2A;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ordered_list li {
+    margin: 2rem auto;
+}
+
+.ordered_list li p{
+    margin: 0;
+}
+
+.unordered_list li{
+    margin: 0;
+}
+
+/* Due_diligence */
+
+.due_diligence-section {
+    margin-bottom: 5rem;
+}
+
+.due_diligence-head-div {
+    background-image: url(../assets/images/due_diligence.png);
+    height: 70vh;
+    background-position: top;
+    display: flex;
+    align-items: center;
+    opacity: 99%;
+    margin-bottom: 1rem;
+}
+
+.subscribe-btn {
+    border-radius: 8px;
+    background: #E30B21 !important;
+    color: #fff !important;
+    padding: .5rem 1.5rem !important;
+}
+
+.page-heading h2 {
+    font-family: 'DM Serif Display', serif;
+    color: #000;
+    margin-bottom: 1.8rem;
+}
+
+.page-heading p {
+    margin: 1.5rem auto;
+    color: #2A2A2A;
+    font-family: 'Poppins', sans-serif;
+}
+
+.due_diligence-body-ol {
+    font-family: 'Poppins', sans-serif;
+}
+
+.due_diligence-body-ol ol li {
+    margin-bottom: 1rem;
+}
+
+.due_diligence-body-ol ol li span {
+    font-weight: 600;
+    color: #000;
+}
+
+/* About_us */
+
+.about_us_section {
+    background-image: url(../assets/images/about_us.png);
+    height: 15vh;
+    background-size: contain;
+    background-position: center;
+    margin-bottom: 2rem;
+}
+
+.about_us_body {
+    margin-bottom: 3.5rem;
+}
+
+.about_us_body h2 {
+    font-size: 3rem;
+}
+
+/* Contact_us */
+
+.contact_us_section {
+    background-image: url(../assets/images/contact_us.png);
+    height: 15vh;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 2rem;
+}
+
+.contact_us_body {
+    margin-bottom: 2.8rem;
+}
+
+.contact_us_options {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: .5rem auto;
+}
+
+.contact_us_options img {
+    height: 1.5rem;
+}
+
+.contact_us_options a {
+    text-decoration: none;
+    color: #2A2A2A;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Success_stories */
+
+.success_section {
+    background-image: url(../assets/images/sucess_stories.png);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.success_page_head h1 {
+    font-size: 3rem;
+}
+
+.success_page_head p {
+    line-height: 2rem;
+}
+
+.sucess-data {
+    margin-bottom: 3rem;
+}
+
+.success_body {
+    margin: 2.5rem auto;
+}
+
+.success_body p {
+    margin: .2rem auto;
+}
+
+/* Terms_&_conditions */
+
+.terms_section {
+    background-image: url(../assets/images/Terms.png);
+    height: 15vh;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 2rem;
+}
+
+.terms_body {
+    margin-bottom: 3.5rem;
+}
+
+.terms_data {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Privacy Policy */
+
+.privacy_policy_section {
+    background-image: url(../assets/images/privacy_policy.png);
+    height: 15vh;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 2rem;
+}
+
+.privacy_policy_body {
+    margin-bottom: 3.5rem;
+}
+
+/* Return_policy */
+
+.return_policy_section {
+    background-image: url(../assets/images/return_policy.png);
+    height: 15vh;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 2rem;
+}
+
+/* Shipping_policy */
+
+.shipping_policy_section {
+    background-image: url(../assets/images/contact_us.png);
+    height: 15vh;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 2rem;
+}
+
+.shipping_policy_body {
+    margin-bottom: 3rem !important;
+}
+
+.shipping_data p {
+    margin-top: 0;
+}
+
+/* Pricing_policy */
+
+.pricing_policy_section {
+    background-image: url(../assets/images/Terms.png);
+    height: 15vh;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 2rem;
+}
+
+.pricing_policy_body {
+    margin-bottom: 3rem;
+}
+
+.bottom-bar-no-login {
+    display: none;
+}
+
+@media (min-width: 1000px) and (max-width: 1450px) {}
+@media (min-width: 710px) and (max-width: 980px) {
+    /* Global_CSS */
+    
+    .head-data {
+        color: white;
+        width: 100%;
+    }
+    
+    /* Due_diligence */
+
+    .due_diligence-head-div {
+        height: fit-content;
+        padding: 2rem .5rem;
+    }
+
+    /* Success_stories */
+
+    .success_section {
+        height: fit-content;
+        padding: 2rem .5rem;
+    }
+}
+@media (min-width: 500px) and (max-width: 700px) {
+    /* Global_CSS */
+
+    .head-data {
+        width: 100%;
+    }
+
+    .head-data h1 {
+        font-size: 1.5rem;
+    }
+
+    .head-data p {
+        font-size: 0.6rem;
+    }
+
+    /* Due_diligence */
+
+    .due_diligence-head-div {
+        height: fit-content;
+        padding: 2rem .5rem;
+    }
+
+    /* Success_stories */
+
+    .success_section {
+        height: fit-content;
+        padding: 2rem .5rem;
+    }
+}
+@media (min-width: 310px) and (max-width: 480px) {
+    /* Global_CSS */
+    
+    .head-data {
+        width: 100%;
+    }
+
+    .head-data h1 {
+        font-size: 2rem;
+    }
+
+    .head-data p {
+        font-size: 0.8rem;
+    }
+
+    .bottom-bar-no-login {
+        display: flex;
+        border-radius: 50px 50px 0px 0px;
+        background: #E30B21;
+        width: 100%;
+        z-index: 3;
+        padding: .6rem .2rem;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        position: fixed;
+        bottom: 0;
+    }
+
+    .bottom-bar-no-login p {
+        font-family: 'Poppins', sans-serif;
+        font-size: 1rem;
+        font-weight: 500;
+        letter-spacing: 0.28px;
+        margin: 0;
+    }
+
+    .bottom-bar-no-login p a{
+        text-decoration: none;
+        color: #FFF;
+    }
+    /* Due_diligence */
+
+    .due_diligence-section {
+        padding-top: 5.5rem;
+    }
+
+    .due_diligence-head-div {
+        height: fit-content;
+        padding: 2rem .5rem;
+    }
+
+    /* About_us */
+
+    .about_us_section {
+        padding-top: 5.5rem;
+        height: 20vh;
+    }
+
+    /* Contact_us */
+
+    .contact_us_section {
+        padding-top: 5.5rem;
+        height: 20vh;
+    }
+
+    .contact_us_body {
+        margin-bottom: 3.5rem;
+    }
+    
+    /* Success_stories */
+
+    .success_section {
+        height: fit-content;
+        padding: 5.5rem .5rem;
+    }
+
+    /* Return_policy */
+
+    .return_policy_section {
+        padding-top: 5.5rem;
+        height: 20vh;
+    }
+
+    .return_policy_body {
+        margin-bottom: 3.5rem;
+    }
+
+    /* Shipping_policy */
+
+    .shipping_policy_section {
+        padding-top: 5.5rem;
+        height: 20vh;
+    }
+
+    .shipping_policy_body {
+        margin-bottom: 3.5rem;
+    }
+
+    /* Pricing_policy */
+
+    .pricing_policy_section {
+        padding-top: 5.5rem;
+        height: 20vh;
+    }
+
+    .pricing_policy_body {
+        margin-bottom: 3.5rem;
+    }
+
+    /* Terms_&_conditions */
+
+    .terms_section {
+        padding-top: 5.5rem;
+        height: 20vh;
+    }
+
+    .terms_data {
+        margin-bottom: 3.5rem;
+    }
+
+    /* Privacy_policy */
+
+    .privacy_policy_section {
+        padding-top: 5.5rem;
+        height: 20vh;
+    }
+}

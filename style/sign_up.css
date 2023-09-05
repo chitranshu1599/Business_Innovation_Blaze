@@ -1,0 +1,461 @@
+.signup-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup-img {
+    padding: 1rem;
+    width: 35%;
+    height: 105vh;
+    overflow: hidden;
+    background-image: url(../assets/images/signup.png);
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    background-repeat: no-repeat;
+}
+
+.signup-logo {
+    width: 80%;
+    margin: 1rem auto
+}
+
+.signup-img img {
+    width: 7rem;
+}
+
+.signup-info {
+    width: 80%;
+    margin: 0 auto;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+
+.signup-info h1 {
+    font-weight: 600;
+}
+
+.signup-info p {
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.signup-data {
+    width: 65%;
+    padding: 2rem 1.5rem 0;
+}
+
+.signup-data h1 {
+    font-family: 'DM Serif Display', serif !important;
+    font-size: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+.radio-btn {
+    margin-bottom: 1.2rem;
+    display: flex;
+    width: 23%;
+    justify-content: space-between;
+}
+
+.radio-options {
+    display: flex;
+    gap: .8rem;
+    align-items: center;
+}
+
+.radio-options input[type="radio"] {
+    appearance: none;
+    border-radius:50%;
+    height: 1rem;
+    width: 1rem;
+    outline-offset: 2px;
+    outline: .2rem solid #00004D;
+}
+
+.radio-options input[type="radio"]:checked {
+    background-color: #E30B21;
+}
+
+.radio-options label {
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sign_up_form {
+    margin: 2rem auto;
+}
+
+.details {
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 1rem;
+}
+
+.details label {
+    font-weight: 500;
+    margin-bottom: .8rem;
+    font-size: .9rem;
+}
+
+.details label span {
+    color: red;
+}
+
+.details input {
+    border-radius: 8px;
+    background: #383838;
+    color: #fff;
+    padding: .6rem .8rem;
+    border: none;
+    font-size: .9rem;
+    width: 90%;
+}
+
+.details input::placeholder {
+    color: #fff;
+}
+
+.details select {
+    border-radius: 8px !important;
+    background: #383838 !important;
+    color: #fff !important;
+    padding: .6rem .8rem !important;
+    border: none !important;
+    font-size: .9rem !important;
+    width: 84% !important;
+}
+
+/* .form-select {
+    --bs-form-select-bg-img: url(../assets/images/select.png) !important;
+} */
+
+.signup-btns {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem !important;
+}
+
+.next-btn, .back-btn, .create-btn {
+    border-radius: 8px;
+    background: #E30B21 !important;
+    width: 20% !important;
+    color: #fff !important;
+    font-weight: 700 !important;
+    padding: .5rem 0 !important;
+    font-size: .9rem !important;
+}
+
+.signup-btns p {
+    font-size: .9rem;
+    margin: 1rem auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.signup-btns p span a{
+    color: #E30B21;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+input[type='range'] {
+    width: 100%;
+    height: 30px;
+    overflow: hidden;
+    cursor: pointer;
+    outline: none;
+}
+
+input[type='range'],
+input[type='range']::-webkit-slider-runnable-track,
+input[type='range']::-webkit-slider-thumb {
+-webkit-appearance: none;
+    background: none;
+}
+
+input[type='range']::-webkit-slider-runnable-track {
+    width: 200px;
+    height: 7px;
+    border-radius: 8px;
+    background-color: #00004D !important;
+}
+
+input[type='range']:nth-child(2)::-webkit-slider-runnable-track{
+    background: none;
+}
+
+input[type='range']::-webkit-slider-thumb {
+    position: relative;
+    height: 15px;
+    width: 15px;
+    margin-top: -7px;
+    background: #fff;
+    border: 1px solid #003D7C;
+    border-radius: 25px;
+    z-index: 1;
+}
+
+
+input[type='range']:nth-child(1)::-webkit-slider-thumb{
+    z-index: 2;
+}
+
+.rangeslider{
+    position: relative;
+    height: 60px;
+    width: 20rem;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.range-div .range-bar-value{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rangeslider input{
+    position: absolute;
+}
+
+.rangeslider{
+    position: absolute;
+}
+
+.rangeslider span{
+    position: static;
+    margin-top: 30px;
+    left: 0;
+}
+
+
+.rangeslider .right{
+    position: static;
+    float: right;
+    margin-right: -5px;
+}
+
+.left{
+    width: fit-content !important;
+    padding: .2rem 1rem !important;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #E30B21;
+    border-color: #E30B21;
+    cursor: pointer;
+}  
+
+.right {
+    width: fit-content !important;
+    padding: .35rem 1rem !important;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+@-moz-document url-prefix() {
+    .rangeslider::before{
+        content:'';
+        width:100%;
+        height:2px;
+        background: #003D7C;
+        display:block;
+        position: relative;
+        top:16px;
+    }
+
+    input[type='range']:nth-child(1){
+        position:absolute;
+        top:35px !important;
+        overflow:visible !important;
+        height:0;
+    }
+
+    input[type='range']:nth-child(2){
+        position:absolute;
+        top:35px !important;
+        overflow:visible !important;
+        height:0;
+    }
+
+    input[type='range']::-moz-range-thumb {
+        position: relative;
+        height: 15px;
+        width: 15px;
+        margin-top: -7px;
+        background: #fff;
+        border: 1px solid #003D7C;
+        border-radius: 25px;
+        z-index: 1;
+    }
+
+    input[type='range']:nth-child(1)::-moz-range-thumb {
+        transform: translateY(-20px);    
+    }
+    input[type='range']:nth-child(2)::-moz-range-thumb {
+        transform: translateY(-20px);    
+    }
+}
+
+.part-2 {
+    display: none;
+}
+
+.blank-space {
+    height: 10vh;
+}
+
+.part-2-information-para{
+    margin-top: 120px !important;
+}
+
+.part-2-information {
+    font-family: 'Inter', sans-serif;
+}
+
+.part-2-info {
+    margin-bottom: 1.5rem;
+}
+
+.part-2-info select {
+    width: 90% !important;
+    border-radius: 8px;
+    border: 1px solid #000;
+    padding: .4rem 1rem;
+}
+
+.part-2-info select:focus {
+    box-shadow: none !important;
+}
+
+.part-2-info input {
+    width: 90% !important;
+    border-radius: 8px;
+    border: 1px solid #000;
+    padding: .4rem 1rem;
+}
+
+.part-2-btns {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.mob-logo {
+    display: none;
+}
+
+@media (min-width: 1000px) and (max-width: 1450px) {
+    .radio-btn {
+        width: 35%;
+    }
+}
+@media (min-width: 710px) and (max-width: 980px) {
+    .radio-btn {
+        width: 43%;
+    }
+
+    .next-btn, .back-btn, .create-btn {
+        width: 45% !important;
+    }
+}
+@media (min-width: 500px) and (max-width: 700px) {
+    .signup-img {
+        display: none;
+    }
+
+    .signup-data {
+        width: 100%;
+    }
+
+    .radio-btn {
+        width: 35%;
+    }
+
+    .details input {
+        width: 100%;
+    }
+
+    .details select {
+        width: 100% !important;
+    }
+
+    .part-2-info input {
+        width: 100% !important;
+    }
+
+    .part-2-info select {
+        width: 100% !important;
+    }
+
+    .next-btn, .back-btn, .create-btn {
+        width: 45% !important;
+    }
+    
+    .mob-logo {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+
+    .mob-logo img {
+        height: 5rem;
+    }
+}
+@media (min-width: 310px) and (max-width: 480px) {
+    .signup-img {
+        display: none;
+    }
+
+    .signup-data {
+        width: 100%;
+    }
+
+    .radio-btn {
+        width: 65%;
+    }
+
+    .details input {
+        width: 100%;
+    }
+
+    .details select {
+        width: 100% !important;
+    }
+
+    .part-2-info input {
+        width: 100% !important;
+    }
+
+    .part-2-info select {
+        width: 100% !important;
+    }
+
+    .next-btn, .back-btn, .create-btn {
+        width: 45% !important;
+    }
+
+    .mob-logo {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 1rem;
+    }
+
+    .mob-logo img {
+        height: 5rem;
+    }
+}

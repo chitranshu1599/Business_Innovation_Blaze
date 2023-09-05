@@ -1,0 +1,204 @@
+.login-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-img {
+    width: 65%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.login-img img {
+    width: 100%;
+}
+
+.login-data {
+    width: 35%;
+    padding: 2rem 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-data img {
+    height: 6rem;
+    width: 8rem;
+    margin-bottom: 1rem;
+}
+
+.login-data h1 {
+    font-family: 'DM Serif Display', serif !important;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.login-form {
+    width: 100%;
+}
+
+.details {
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto 1.5rem;
+}
+
+.details label {
+    font-weight: 500;
+    margin-bottom: .8rem;
+    font-size: .9rem;
+}
+
+.details label span {
+    color: red;
+}
+
+.details input {
+    border-radius: 8px;
+    background: #383838;
+    color: #fff;
+    padding: .6rem .8rem;
+    border: none;
+    font-size: .9rem;
+}
+
+.details input::placeholder {
+    color: #fff;
+}
+
+.other-details {
+    font-family: 'Poppins', sans-serif;
+    width: 80%;
+    display: flex;
+    margin: 0 auto 2rem;
+    justify-content: space-between;
+}
+
+.other-options {
+    font-size: .8rem;
+    display: flex;
+    align-items: center;
+}
+
+.other-options input[type="checkbox"] {
+    height: 1.1rem;
+    width: 1.1rem;
+}
+
+.other-options label{
+    margin: 0 .5rem;
+    font-weight: 500;
+    font-size: .75rem;
+}
+
+.other-options a {
+    text-decoration: none;
+    color: #B0B0B0;
+    font-size: .75rem;
+}
+
+.login-btns {
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    gap: .8rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.login-btn {
+    border-radius: 8px;
+    background: #E30B21 !important;
+    width: 100%;
+    color: #fff !important;
+    font-weight: 700 !important;
+    padding: .5rem 0 !important;
+    font-size: .9rem !important;
+}
+
+.google-btn {
+    border-radius: 8px;
+    background: #00004D !important;
+    width: 100%;
+    color: #fff !important;
+    font-weight: 700 !important;
+    padding: .5rem 0 !important;
+    display: flex !important;
+    align-items: center !important;
+    gap: 1rem !important;
+    justify-content: center !important;
+    font-size: .9rem !important;
+}
+
+.google-btn img {
+    height: 1.3rem;
+    width: 1.3rem;
+    margin: 0;
+}
+
+.login-btns p {
+    font-size: .9rem;
+    margin: 1rem auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.login-btns p span a{
+    color: #E30B21;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+@media (min-width: 1000px) and (max-width: 1450px) {
+    
+    .login-img {
+        width: 60%;
+        height: auto;
+    }
+    
+    .login-img img {
+        height: 100%;
+        overflow: hidden;
+        object-fit: cover;
+    }
+
+    .login-data {
+        width: 40%;
+    }
+}
+@media (min-width: 710px) and (max-width: 980px) {
+    .login-img {
+        width: 50%;
+        height: auto;
+    }
+    
+    .login-img img {
+        height: 100%;
+        overflow: hidden;
+        object-fit: cover;
+    }
+
+    .login-data {
+        width: 55%;
+    }
+}
+@media (min-width: 500px) and (max-width: 700px) {
+    .login-img {
+        display: none;
+    }
+
+    .login-data {
+        width: 100%;
+    }
+}
+@media (min-width: 310px) and (max-width: 480px) {
+    .login-img {
+        display: none;
+    }
+
+    .login-data {
+        width: 100%;
+    }
+}

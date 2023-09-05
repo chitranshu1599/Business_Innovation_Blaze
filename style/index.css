@@ -1,0 +1,1905 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'DM Serif Display', 'Poppins', 'Roboto', serif, sans-serif;
+  background-color: #fff;
+}
+
+.mySlides {
+  display: none;
+}
+
+.mySlides img {
+  vertical-align: middle;
+  filter: brightness(0.5);
+}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 5px;
+  width: 5px;
+  margin: 0;
+  background-color: #fff;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.bottom-dot .active {
+  background-color: #E30B21;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {
+    opacity: .4
+  }
+
+  to {
+    opacity: 1
+  }
+}
+
+.banner-section {
+  position: relative;
+}
+
+.banner-section .banner-text {
+  position: absolute;
+  top: 20%;
+  margin-left: 140px;
+  width: 41%;
+}
+
+.banner-text .heading {
+  font-family: 'DM Serif Display';
+  color: #fff;
+  font-size: 55px;
+  font-weight: 400;
+  line-height: 75px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.banner-text .para {
+  font-family: 'Poppins';
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.banner-section .banner-btn {
+  margin-top: 40px;
+}
+
+.btn-blue {
+  color: #fff;
+  background-color: #190943;
+  border-color: #190943;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 20%;
+  margin-right: 20px;
+}
+
+.btn-red {
+  color: #fff;
+  background-color: #E30B21;
+  border-color: #E30B21;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 20%;
+}
+
+.btn:hover {
+  color: #fff;
+}
+
+.btn:hover {
+  color: #fff;
+}
+
+.banner-section .bottom-dot {
+  position: absolute;
+  bottom: 5%;
+  right: 150px;
+}
+
+.number-section {
+  margin: 90px 0px;
+}
+
+.number-section .number-head {
+  font-family: 'DM Serif Display';
+  color: #00004D;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 80px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.number-section .number-para {
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.investor-section {
+  margin: 30px 0px;
+  position: relative;
+}
+
+.investor-section .investor {
+  background-image: url(/assets/images/investor-group.jpg);
+  background-position: center;
+  background-repeat: no-repeat, repeat;
+  background-size: contain;
+  filter: brightness(0.3);
+  height: 85vh;
+  padding: 330px 250px;
+}
+
+.investor-section .invest-head {
+  font-family: 'DM Serif Display';
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.investor-section .invest-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.investor-section .invest-part {
+  position: absolute;
+  top: 37%;
+  left: 20%;
+}
+
+.meet-investor {
+  margin: 90px 0px;
+}
+
+.meet-investor .meet-investor-img {
+  width: 11rem;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.meet-investor .meet-investor-heading {
+  font-family: 'DM Serif Display';
+  color: #00004D;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 70px;
+  letter-spacing: 0.02em;
+  text-align: right;
+}
+
+.visionary-part {
+  margin: 70px 0px 90px;
+}
+
+.visionary-part .vision-head {
+  font-family: 'DM Serif Display';
+  color: #00004D;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 70px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.visionary-part .vision-para {
+  font-family: 'Poppins';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  text-align: left;
+
+}
+
+.visionary-part .carousel-inner .active {
+  background-color: #2A2A2A;
+}
+
+.visionaries {
+  padding: 20px;
+}
+
+.visionary-part .carousel-indicators {
+  display: flex;
+  justify-content: right !important;
+  margin-right: 3% !important;
+}
+
+.visionary-part .carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  opacity: 1 !important;
+  border: 1px solid transparent;
+  border-radius: 20px !important;
+}
+
+.visionary-part .carousel-indicators .active {
+  background-color: #E30B21 !important;
+}
+
+.visionaries .profile {
+  display: flex;
+  justify-content: left;
+  align-items: end;
+}
+
+.visionaries .pro-pic {
+  width: 8rem;
+  margin-right: 15px;
+}
+
+.visionary-part .carousel-inner .carousel-item {
+  border-radius: 10px;
+}
+
+.visionaries .profile-right-head {
+  font-family: 'DM Serif Display';
+  color: #fff;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.visionaries .profile-right-para {
+  font-family: 'Poppins';
+  color: #fff;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+}
+
+.visionaries .special {
+  font-family: 'Poppins';
+  color: #fff;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+}
+
+.visionaries .profile-read-more {
+  font-family: 'Poppins';
+  color: #E30B21;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+
+.visionaries .profile-add {
+  font-family: 'Poppins';
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+}
+
+.visionaries .pro-sub-add {
+  font-family: 'Poppins';
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  text-align: left;
+
+}
+
+.news-paper-section .news-paper {
+  margin: 70px 0px;
+}
+
+.hr-news {
+  border: 1px solid black;
+  border-style: dashed;
+  background: white;
+  margin: 2rem 0;
+}
+
+.news-paper .news-row {
+  justify-content: center;
+  align-items: center;
+}
+
+.news-paper .news-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.news-paper .news-icon {
+  width: 10rem;
+}
+
+.news-paper .news-icon1 {
+  width: 17rem;
+}
+
+.industries {
+  margin: 80px 0px;
+}
+
+.industries .industries-heading {
+  font-family: 'DM Serif Display';
+  color: #00004D;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 70px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.industries .service-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.industries .single-service {
+  flex-basis: 48%;
+  text-align: center;
+  border-radius: 7px;
+  margin-bottom: 20px;
+  color: white;
+  position: relative;
+}
+
+.industries .single-service img {
+  width: 100%;
+  border-radius: 7px;
+}
+
+.industries .overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  border-radius: 7px;
+  cursor: pointer;
+  background: linear-gradient(180deg, rgba(217, 217, 217, 0) 0%, #000000 116.62%);
+  opacity: 0;
+  transition: 1s;
+}
+
+.industries .single-service:hover .overlay {
+  opacity: 1;
+}
+
+.industries .service-sub-head {
+  font-family: 'Poppins';
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 35px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  margin-left: 20px;
+  margin-bottom: 0;
+}
+
+.industries .service-desc {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  opacity: 0;
+  transform: translateX(-50%);
+  transition: 1s;
+}
+
+.industries .single-service:hover .service-desc {
+  bottom: 5%;
+  opacity: 1;
+}
+
+.view-more {
+  font-family: 'Poppins';
+  color: #E30B21;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  text-decoration: none;
+
+}
+
+.view-more-div {
+  display: flex;
+  justify-content: center;
+}
+
+.testimonial-section {
+  margin: 70px 0px;
+}
+
+.testimonial-section .heading {
+  font-family: 'DM Serif Display';
+  color: #00004D;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 70px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+
+.testimonial-section .testimonial-body {
+  background-color: #000000CC;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.testimonial-body .test-body-head {
+  font-family: 'Poppins';
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  text-align: justify;
+
+}
+
+.testimonial-body .test-body-para {
+  font-family: 'Poppins';
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  text-align: justify;
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+.testimonial-section .carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  opacity: 1 !important;
+  border: 1px solid transparent;
+  border-radius: 20px !important;
+}
+
+.testimonial-section .carousel-indicators {
+  display: flex;
+  justify-content: right !important;
+  margin-right: 3% !important;
+}
+
+.testimonial-section .carousel-indicators .active {
+  background-color: #E30B21 !important;
+}
+
+.contact {
+  margin: 90px 0px;
+}
+
+.contact .contact-heading {
+  font-family: 'DM Serif Display';
+  color: #00004D;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 70px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  margin-bottom: 30px;
+}
+
+.contact .row-margin {
+  margin-bottom: 50px;
+}
+
+.contact .col-form-label {
+  font-family: 'Poppins';
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.carousel-indicators .active {
+  background-color: #fff !important;
+}
+
+.contact .contact-img {
+  width: 33vw;
+}
+
+.contact .carousel-indicators [data-bs-target] {
+  width: 5px;
+  height: 5px;
+  opacity: 1 !important;
+  border: 1px solid transparent;
+  border-radius: 20px !important;
+}
+
+.contact .carousel-indicators {
+  display: flex;
+  justify-content: right !important;
+  margin-right: 1% !important;
+}
+
+.contact .carousel-indicators .active {
+  background-color: #E30B21 !important;
+}
+
+.contact .carousel-item {
+  border-radius: 10px;
+}
+
+.bottom-bar-no-login {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 551px) and (min-width: 280px) {
+
+  .bib .nav-options-container {
+    width: 35%;
+    gap: 0;
+  }
+
+  .banner-section {
+    padding-top: 6rem;
+  }
+
+  .banner-section .banner-text {
+    position: absolute;
+    top: 38%;
+    margin-left: 20px;
+    width: 90%;
+  }
+
+  .banner-text .heading {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .banner-section .banner-btn {
+    margin-top: 15px;
+  }
+
+  .banner-section .btn-blue {
+    font-weight: 700;
+    line-height: 15px;
+    width: 20%;
+    margin-right: 5px;
+  }
+
+  .banner-section .btn-red {
+    font-weight: 700;
+    line-height: 15px;
+    width: 20%;
+    margin-right: 5px;
+  }
+
+  .banner-text .para {
+    font-size: 10px;
+    line-height: 13px;
+  }
+
+  .banner-section .bottom-dot {
+    position: absolute;
+    bottom: 5%;
+    right: 50px;
+  }
+
+  .btn-blue {
+    font-size: 10px;
+  }
+
+  .btn-red {
+    font-size: 10px;
+  }
+
+  .invest-btn .btn-red {
+    line-height: 15px;
+    width: 23%;
+  }
+
+  .number-section {
+    margin: 30px 0px;
+  }
+
+  .number-section .number-head {
+    font-size: 35px;
+    line-height: 45px;
+  }
+
+  .number-section .number-para {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .investor-section {
+    margin: 50px 0px;
+  }
+
+  .investor-section .investor {
+    height: 23vh;
+    padding: 0px 0px;
+  }
+
+  .investor-section .invest-head {
+    font-size: 13px;
+    line-height: 22px;
+  }
+
+  .investor-section .invest-part {
+    position: absolute;
+    top: 28%;
+    left: 5%;
+  }
+
+  .investor-section .invest-btn {
+    margin-top: 20px;
+  }
+
+  .meet-investor {
+    margin: 5px 0px;
+    position: relative;
+  }
+
+  .meet-investor .meet-investor-img {
+    width: 7.2rem;
+    margin-bottom: 10px;
+  }
+
+  .meet-investor .row {
+    margin: 0;
+  }
+
+  .meet-investor .margin {
+    margin-top: 80px;
+  }
+
+  .meet-investor .padd1 {
+    padding: 0;
+  }
+
+  .meet-investor .padd {
+    padding: 0;
+  }
+
+  .meet-investor .meet-investor-heading {
+    position: absolute;
+    top: 0;
+    left: 20%;
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+  }
+
+  .view-more {
+    font-size: 12px;
+  }
+
+  .visionary-part {
+    margin: 30px 0px 70px;
+  }
+
+  .visionary-part .vision-head {
+    font-size: 25px;
+    line-height: 45px;
+    text-align: center;
+  }
+
+  .visionary-part .vision-para {
+    font-size: 11px;
+    line-height: 20px;
+    text-align: center;
+  }
+
+  .visionaries .profile-right-head {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .visionaries .profile-right-para {
+    font-size: 12px;
+    line-height: 25px;
+  }
+
+  .visionaries .special {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .visionaries .profile-read-more {
+    font-size: 11px;
+    line-height: 18px;
+  }
+
+  .visionaries .profile-add {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .visionaries .pro-pic {
+    width: 5.5rem;
+    margin-right: 13px;
+  }
+
+  .visionaries .pro-sub-add {
+    font-size: 10px;
+    line-height: 18px;
+  }
+
+  .visionaries .profile {
+    align-items: flex-start;
+  }
+
+  .visionaries .pro-address img {
+    width: 0.7rem;
+  }
+
+  .news-paper-section .news-paper {
+    margin: 50px 0px;
+  }
+
+  .news-paper .news-col {
+    margin-bottom: 30px;
+  }
+
+  .news-paper .news-icon {
+    width: 6rem;
+  }
+
+  .news-paper .news-icon1 {
+    width: 12rem;
+  }
+
+  .hr-news {
+    margin: 1rem 0;
+  }
+
+  .website-category{
+    margin-bottom: 60px;
+  }
+
+  .website-category .industries {
+    margin-top: 100px;
+    margin-bottom: 20px;
+  }
+
+  .industries {
+    margin: 50px 0px;
+  }
+
+  .industries .industries-heading {
+    font-size: 25px;
+    line-height: 32px;
+    margin-bottom: 20px;
+  }
+
+  .industry-body .middle {
+    bottom: -14%;
+  }
+
+  .industries .service-sub-head {
+    font-size: 15px;
+    line-height: 23px;
+  }
+
+  .industry-body .text {
+    font-size: 14px;
+    line-height: 40px;
+    padding: 0px 10px;
+  }
+
+  .testimonial-section {
+    margin: 50px 0px;
+  }
+
+  .testimonial-section .margin1 {
+    margin-bottom: 10px;
+  }
+
+  .industries .single-service {
+    margin-bottom: 25px;
+  }
+
+  .testimonial-section .heading {
+    font-size: 25px;
+    line-height: 32px;
+  }
+
+  .testimonial-body .test-body-head {
+    font-size: 12px;
+    line-height: 23px;
+  }
+
+  .testimonial-body .test-body-para {
+    font-size: 12px;
+    line-height: 23px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .contact {
+    margin: 60px 0px;
+  }
+
+  .contact .contact-heading {
+    font-size: 25px;
+    line-height: 32px;
+    margin-bottom: 22px;
+  }
+
+  .contact .row-margin {
+    margin-bottom: 10px;
+  }
+
+  .contact .col-form-label {
+    font-size: 15px;
+    line-height: 30px;
+  }
+
+  .contact .contact-lower-img {
+    display: none;
+  }
+
+  .contact .banner-btn {
+    display: flex;
+    justify-content: center;
+  }
+
+  .contact .btn-blue {
+    font-size: 12px;
+    line-height: 26px;
+    width: 26%;
+  }
+
+  .bottom-bar-no-login {
+    display: flex;
+    border-radius: 50px 50px 0px 0px;
+    background: #E30B21;
+    width: 100%;
+    z-index: 3;
+    padding: .6rem .2rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    position: fixed;
+    bottom: 0;
+  }
+
+  .bottom-bar-no-login p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: 0.28px;
+    margin: 0;
+  }
+
+  .bottom-bar-no-login p a {
+    text-decoration: none;
+    color: #FFF;
+  }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 767px) and (min-width: 550px) {
+  .banner-section .banner-text {
+    position: absolute;
+    top: 10%;
+    margin-left: 65px;
+    width: 70%;
+  }
+
+  .banner-text .heading {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .banner-text .para {
+    font-size: 13px;
+    line-height: 22px;
+  }
+
+  .banner-section .bottom-dot {
+    position: absolute;
+    bottom: 5%;
+    right: 50px;
+  }
+
+  .btn-blue {
+    font-size: 13px;
+  }
+
+  .btn-red {
+    font-size: 13px;
+  }
+
+  .invest-btn .btn-red {
+    line-height: 22px;
+    width: 23%;
+  }
+
+  .number-section {
+    margin: 50px 0px;
+  }
+
+  .number-section .number-head {
+    font-size: 40px;
+    line-height: 50px;
+  }
+
+  .number-section .number-para {
+    font-size: 10px;
+    line-height: 18px;
+  }
+
+  .investor-section .investor {
+    height: 34vh;
+    padding: 10px 5px;
+  }
+
+  .investor-section .invest-head {
+    font-size: 16px;
+    line-height: 27px;
+  }
+
+  .investor-section .invest-part {
+    position: absolute;
+    top: 30%;
+    left: 13%;
+  }
+
+  .investor-section .invest-btn {
+    margin-top: 20px;
+  }
+
+  .meet-investor {
+    margin: 50px 0px;
+  }
+
+  .meet-investor .meet-investor-img {
+    width: 4.3rem;
+    margin-bottom: 10px;
+  }
+
+  .meet-investor .meet-investor-heading {
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+  }
+
+  .view-more {
+    font-size: 12px;
+  }
+
+  .visionary-part {
+    margin: 10px 0px 60px;
+  }
+
+  .visionary-part .vision-head {
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+  }
+
+  .visionary-part .vision-para {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .visionaries .profile-right-head {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .visionaries .profile-right-para {
+    font-size: 12px;
+    line-height: 25px;
+  }
+
+  .visionaries .special {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .visionaries .profile-read-more {
+    font-size: 11px;
+    line-height: 18px;
+  }
+
+  .visionaries .profile-add {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .visionaries .pro-pic {
+    width: 5.5rem;
+    margin-right: 13px;
+  }
+
+  .visionaries .pro-sub-add {
+    font-size: 10px;
+    line-height: 18px;
+  }
+
+  .visionaries .profile {
+    align-items: flex-start;
+  }
+
+  .visionaries .pro-address img {
+    width: 0.7rem;
+  }
+
+  .news-paper-section .news-paper {
+    margin: 50px 0px;
+  }
+
+  .news-paper .news-col {
+    margin-bottom: 30px;
+  }
+
+  .news-paper .news-icon {
+    width: 6rem;
+  }
+
+  .news-paper .news-icon1 {
+    width: 12rem;
+  }
+
+  .hr-news {
+    margin: 1rem 0;
+  }
+
+  .industries {
+    margin: 50px 0px;
+  }
+
+  .industries .industries-heading {
+    font-size: 25px;
+    line-height: 32px;
+    margin-bottom: 20px;
+  }
+
+  .industry-body .middle {
+    bottom: -14%;
+  }
+
+  .industries .service-sub-head {
+    font-size: 15px;
+    line-height: 23px;
+  }
+
+  .industry-body .text {
+    font-size: 14px;
+    line-height: 40px;
+    padding: 0px 10px;
+  }
+
+  .testimonial-section {
+    margin: 50px 0px;
+  }
+
+  .testimonial-section .heading {
+    font-size: 25px;
+    line-height: 32px;
+  }
+
+  .testimonial-body .test-body-head {
+    font-size: 12px;
+    line-height: 23px;
+  }
+
+  .testimonial-body .test-body-para {
+    font-size: 12px;
+    line-height: 23px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .contact {
+    margin: 60px 0px;
+  }
+
+  .contact .contact-heading {
+    font-size: 25px;
+    line-height: 32px;
+    margin-bottom: 22px;
+  }
+
+  .contact .row-margin {
+    margin-bottom: 10px;
+  }
+
+  .contact .col-form-label {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .contact .btn-blue {
+    line-height: 20px;
+    width: 26%;
+  }
+
+  .contact .contact-img {
+    width: 48vw;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+  .banner-section .banner-text {
+    position: absolute;
+    top: 10%;
+    margin-left: 37px;
+    width: 58%;
+  }
+
+  .banner-text .heading {
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .banner-text .para {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .banner-section .bottom-dot {
+    position: absolute;
+    bottom: 5%;
+    right: 50px;
+  }
+
+  .btn-blue {
+    font-size: 14px;
+  }
+
+  .btn-red {
+    font-size: 14px;
+  }
+
+  .number-section {
+    margin: 50px 0px;
+  }
+
+  .number-section .number-head {
+    font-size: 45px;
+    line-height: 60px;
+  }
+
+  .number-section .number-para {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .investor-section .investor {
+    height: 34vh;
+    padding: 10px 5px;
+  }
+
+  .investor-section .invest-head {
+    font-size: 20px;
+    line-height: 35px;
+  }
+
+  .investor-section .invest-part {
+    position: absolute;
+    top: 30%;
+    left: 13%;
+  }
+
+  .investor-section .invest-btn {
+    margin-top: 20px;
+  }
+
+  .meet-investor {
+    margin: 50px 0px;
+  }
+
+  .meet-investor .meet-investor-img {
+    width: 6rem;
+    margin-bottom: 10px;
+  }
+
+  .meet-investor .meet-investor-heading {
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+  }
+
+  .view-more {
+    font-size: 12px;
+  }
+
+  .visionary-part {
+    margin: 10px 0px 60px;
+  }
+
+  .visionary-part .vision-head {
+    font-size: 32px;
+    line-height: 40px;
+    text-align: center;
+  }
+
+  .visionary-part .vision-para {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .visionaries .profile-right-head {
+    font-size: 18px;
+    line-height: 35px;
+  }
+
+  .visionaries .profile-right-para {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .visionaries .special {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .visionaries .profile-read-more {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .visionaries .profile-add {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .visionaries .pro-pic {
+    width: 6rem;
+    margin-right: 15px;
+  }
+
+  .visionaries .pro-sub-add {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .visionaries .profile {
+    align-items: flex-start;
+  }
+
+  .visionaries .pro-address img {
+    width: 0.9rem;
+  }
+
+  .news-paper-section .news-paper {
+    margin: 50px 0px;
+  }
+
+  .news-paper .news-col {
+    margin-bottom: 30px;
+  }
+
+  .news-paper .news-icon {
+    width: 8rem;
+  }
+
+  .news-paper .news-icon1 {
+    width: 14rem;
+  }
+
+  .hr-news {
+    margin: 1rem 0;
+  }
+
+  .industries {
+    margin: 50px 0px;
+  }
+
+  .industries .industries-heading {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 25px;
+  }
+
+  .industry-body .middle {
+    bottom: -14%;
+  }
+
+  .industries .service-sub-head {
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .industry-body .text {
+    font-size: 14px;
+    line-height: 40px;
+    padding: 0px 10px;
+  }
+
+  .testimonial-section {
+    margin: 50px 0px;
+  }
+
+  .testimonial-section .heading {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .testimonial-body .test-body-head {
+    font-size: 13px;
+    line-height: 25px;
+  }
+
+  .testimonial-body .test-body-para {
+    font-size: 13px;
+    line-height: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .contact {
+    margin: 60px 0px;
+  }
+
+  .contact .contact-heading {
+    font-size: 32px;
+    line-height: 40px;
+    margin-bottom: 25px;
+  }
+
+  .contact .row-margin {
+    margin-bottom: 10px;
+  }
+
+  .contact .col-form-label {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .contact .contact-img {
+    width: 41vw;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 1199px) and (min-width: 992px) {
+  .banner-section .banner-text {
+    position: absolute;
+    top: 10%;
+    margin-left: 30px;
+    width: 56%;
+  }
+
+  .banner-text .heading {
+    font-size: 45px;
+    line-height: 55px;
+  }
+
+  .banner-text .para {
+    font-size: 17px;
+    line-height: 30px;
+  }
+
+  .banner-section .bottom-dot {
+    position: absolute;
+    bottom: 5%;
+    right: 50px;
+  }
+
+  .btn-blue {
+    font-size: 14px;
+  }
+
+  .btn-red {
+    font-size: 14px;
+  }
+
+  .number-section {
+    margin: 60px 0px;
+  }
+
+  .number-section .number-head {
+    font-size: 55px;
+    line-height: 75px;
+  }
+
+  .number-section .number-para {
+    font-size: 17px;
+    line-height: 28px;
+  }
+
+  .investor-section .investor {
+    height: 68vh;
+    padding: 10px 5px;
+  }
+
+  .investor-section .invest-head {
+    font-size: 26px;
+    line-height: 45px;
+  }
+
+  .investor-section .invest-part {
+    position: absolute;
+    top: 33%;
+    left: 15%;
+  }
+
+  .investor-section .invest-btn {
+    margin-top: 25px;
+  }
+
+  .meet-investor {
+    margin: 60px 0px;
+  }
+
+  .meet-investor .meet-investor-img {
+    width: 8rem;
+    margin-bottom: 13px;
+  }
+
+  .meet-investor .meet-investor-heading {
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+  }
+
+  .view-more {
+    font-size: 14px;
+  }
+
+  .visionary-part {
+    margin: 60px 0px 70px;
+  }
+
+  .visionary-part .vision-head {
+    font-size: 44px;
+    line-height: 60px;
+    text-align: left;
+  }
+
+  .visionary-part .vision-para {
+    font-size: 15px;
+    text-align: left;
+  }
+
+  .visionaries .profile-right-head {
+    font-size: 18px;
+    line-height: 35px;
+  }
+
+  .visionaries .profile-right-para {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .visionaries .special {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .visionaries .profile-read-more {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .visionaries .profile-add {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .visionaries .pro-pic {
+    width: 7rem;
+    margin-right: 13px;
+  }
+
+  .visionaries {
+    padding: 10px 10px;
+  }
+
+  .visionaries .pro-sub-add {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .visionaries .profile {
+    align-items: flex-start;
+  }
+
+  .visionaries .pro-address img {
+    width: 0.9rem;
+  }
+
+  .news-paper-section .news-paper {
+    margin: 60px 0px;
+  }
+
+  .news-paper .news-col {
+    margin-bottom: 30px;
+  }
+
+  .news-paper .news-icon {
+    width: 8rem;
+  }
+
+  .news-paper .news-icon1 {
+    width: 15rem;
+  }
+
+  .hr-news {
+    margin: 1rem 0;
+  }
+
+  .industries {
+    margin: 50px 0px;
+  }
+
+  .industries .industries-heading {
+    font-size: 44px;
+    line-height: 60px;
+    margin-bottom: 35px;
+  }
+
+  .industry-body .middle {
+    bottom: -14%;
+  }
+
+  .industries .service-sub-head {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .industry-body .text {
+    font-size: 14px;
+    line-height: 40px;
+    padding: 0px 10px;
+  }
+
+  .testimonial-section {
+    margin: 60px 0px;
+  }
+
+  .testimonial-section .heading {
+    font-size: 44px;
+    line-height: 60px;
+  }
+
+  .testimonial-body .test-body-head {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .testimonial-body .test-body-para {
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .contact {
+    margin: 60px 0px;
+  }
+
+  .contact .contact-heading {
+    font-size: 44px;
+    line-height: 60px;
+    margin-bottom: 28px;
+  }
+
+  .contact .row-margin {
+    margin-bottom: 30px;
+  }
+
+  .contact .col-form-label {
+    font-size: 18px;
+    line-height: 28px;
+  }
+
+  .contact .contact-img {
+    width: 43vw;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1450px) and (min-width: 1200px) {
+  .banner-section .banner-text {
+    position: absolute;
+    top: 10%;
+    margin-left: 92px;
+    width: 43%;
+  }
+
+  .banner-text .heading {
+    font-size: 55px;
+    line-height: 75px;
+  }
+
+  .banner-text .para {
+    font-size: 17px;
+    line-height: 30px;
+  }
+
+  .banner-section .bottom-dot {
+    position: absolute;
+    bottom: 5%;
+    right: 50px;
+  }
+
+  .btn-blue {
+    font-size: 16px;
+  }
+
+  .btn-red {
+    font-size: 16px;
+  }
+
+  .number-section {
+    margin: 60px 0px;
+  }
+
+  .number-section .number-head {
+    font-size: 55px;
+    line-height: 75px;
+  }
+
+  .number-section .number-para {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .investor-section .investor {
+    height: 140vh;
+    padding: 10px 5px;
+  }
+
+  .investor-section .invest-head {
+    font-size: 30px;
+    line-height: 50px;
+  }
+
+  .investor-section .invest-part {
+    position: absolute;
+    top: 34%;
+    left: 15%;
+  }
+
+  .investor-section .invest-btn {
+    margin-top: 25px;
+  }
+
+  .meet-investor {
+    margin: 60px 0px;
+  }
+
+  .meet-investor .meet-investor-img {
+    width: 9rem;
+    margin-bottom: 22px;
+  }
+
+  .meet-investor .meet-investor-heading {
+    font-size: 55px;
+    line-height: 75px;
+    text-align: center;
+  }
+
+  .view-more {
+    font-size: 16px;
+  }
+
+  .visionary-part {
+    margin: 60px 0px 70px;
+  }
+
+  .visionary-part .vision-head {
+    font-size: 55px;
+    line-height: 75px;
+    text-align: left;
+  }
+
+  .visionary-part .vision-para {
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .visionaries .profile-right-head {
+    font-size: 22px;
+    line-height: 35px;
+  }
+
+  .visionaries .profile-right-para {
+    font-size: 15px;
+    line-height: 28px;
+  }
+
+  .visionaries .special {
+    font-size: 15px;
+    line-height: 28px;
+  }
+
+  .visionaries .profile-read-more {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .visionaries .profile-add {
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .visionaries .pro-pic {
+    width: 7rem;
+    margin-right: 13px;
+  }
+
+  .visionaries {
+    padding: 10px 10px;
+  }
+
+  .visionaries .pro-sub-add {
+    font-size: 13px;
+    line-height: 23px;
+  }
+
+  .visionaries .profile {
+    align-items: flex-start;
+  }
+
+  .visionaries .pro-address img {
+    width: 1rem;
+  }
+
+  .news-paper-section .news-paper {
+    margin: 60px 0px;
+  }
+
+  .news-paper .news-col {
+    margin-bottom: 30px;
+  }
+
+  .news-paper .news-icon {
+    width: 10rem;
+  }
+
+  .news-paper .news-icon1 {
+    width: 17rem;
+  }
+
+  .hr-news {
+    margin: 1rem 0;
+  }
+
+  .industries {
+    margin: 50px 0px;
+  }
+
+  .industries .industries-heading {
+    font-size: 55px;
+    line-height: 75px;
+    margin-bottom: 35px;
+  }
+
+  .industry-body .middle {
+    bottom: -14%;
+  }
+
+  .industries .service-sub-head {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .industry-body .text {
+    font-size: 14px;
+    line-height: 40px;
+    padding: 0px 10px;
+  }
+
+  .testimonial-section {
+    margin: 60px 0px;
+  }
+
+  .testimonial-section .heading {
+    font-size: 55px;
+    line-height: 75px;
+  }
+
+  .testimonial-body .test-body-head {
+    font-size: 17px;
+    line-height: 28px;
+  }
+
+  .testimonial-body .test-body-para {
+    font-size: 17px;
+    line-height: 28px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .contact {
+    margin: 60px 0px;
+  }
+
+  .contact .contact-heading {
+    font-size: 55px;
+    line-height: 75px;
+    margin-bottom: 28px;
+  }
+
+  .contact .row-margin {
+    margin-bottom: 25px;
+  }
+
+  .contact .col-form-label {
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  .contact .contact-img {
+    width: 34vw;
+  }
+
+  .contact .carousel-indicators {
+    margin-right: 3% !important;
+  }
+}
