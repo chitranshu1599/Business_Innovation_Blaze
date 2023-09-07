@@ -215,7 +215,7 @@ body {
   line-height: 28px;
   letter-spacing: 0.02em;
   text-align: center;
-  margin-left: 10px;
+  margin-left: 0px;
   margin-bottom: 0;
 }
 
@@ -739,7 +739,6 @@ body {
   .meet-investor .industries .service-sub-head {
     font-size: 10px;
     line-height: 14px;
-    margin-left: 0px;
   }
 
   .meet-investor .btn-blue1 {
@@ -1065,7 +1064,6 @@ body {
   .meet-investor .industries .service-sub-head {
     font-size: 10px;
     line-height: 12px;
-    margin-left: 0px;
   }
 
   .meet-investor .btn-blue1 {
@@ -1315,7 +1313,6 @@ body {
   .meet-investor .industries .service-sub-head {
     font-size: 10px;
     line-height: 20px;
-    margin-left: 0px;
   }
 
   .meet-investor .btn-blue1 {
@@ -1559,7 +1556,6 @@ body {
 
   .meet-investor .industries .service-sub-head {
     font-size: 14px;
-    margin-left: 1px;
   }
 
   .meet-investor .btn-blue1 {
@@ -1808,7 +1804,6 @@ body {
   .meet-investor .industries .service-sub-head {
     font-size: 16px;
     line-height: 28px;
-    margin-left: 0px;
   }
 
   .meet-investor .btn-blue1 {
