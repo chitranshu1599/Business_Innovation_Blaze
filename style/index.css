@@ -192,7 +192,7 @@ body {
   margin: 90px 0px;
 }
 
-.meet-investor .meet-investor-img {
+/* .meet-investor .meet-investor-img {
   width: 11rem;
   border-radius: 10px;
   margin-bottom: 20px;
@@ -206,6 +206,29 @@ body {
   line-height: 70px;
   letter-spacing: 0.02em;
   text-align: right;
+} */
+
+.meet-investor .industries .service-sub-head {
+  font-family: 'Poppins';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  margin-left: 10px;
+  margin-bottom: 0;
+}
+
+.meet-investor .btn-blue1 {
+  color: #fff;
+  background-color: #190943;
+  border-color: #190943;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: center;
 }
 
 .visionary-part {
@@ -707,9 +730,21 @@ body {
     position: relative;
   }
 
+  /* 
   .meet-investor .meet-investor-img {
     width: 7.2rem;
     margin-bottom: 10px;
+  } */
+
+  .meet-investor .industries .service-sub-head {
+    font-size: 10px;
+    line-height: 14px;
+    margin-left: 0px;
+  }
+
+  .meet-investor .btn-blue1 {
+    font-size: 8px;
+    line-height: 5px;
   }
 
   .meet-investor .row {
@@ -820,7 +855,7 @@ body {
     margin: 1rem 0;
   }
 
-  .website-category{
+  .website-category {
     margin-bottom: 60px;
   }
 
@@ -1022,9 +1057,20 @@ body {
     margin: 50px 0px;
   }
 
-  .meet-investor .meet-investor-img {
+  /* .meet-investor .meet-investor-img {
     width: 4.3rem;
     margin-bottom: 10px;
+  } */
+
+  .meet-investor .industries .service-sub-head {
+    font-size: 10px;
+    line-height: 12px;
+    margin-left: 0px;
+  }
+
+  .meet-investor .btn-blue1 {
+    font-size: 8px;
+    line-height: 5px;
   }
 
   .meet-investor .meet-investor-heading {
@@ -1261,9 +1307,20 @@ body {
     margin: 50px 0px;
   }
 
-  .meet-investor .meet-investor-img {
+  /* .meet-investor .meet-investor-img {
     width: 6rem;
     margin-bottom: 10px;
+  } */
+
+  .meet-investor .industries .service-sub-head {
+    font-size: 10px;
+    line-height: 20px;
+    margin-left: 0px;
+  }
+
+  .meet-investor .btn-blue1 {
+    font-size: 8px;
+    line-height: 5px;
   }
 
   .meet-investor .meet-investor-heading {
@@ -1495,9 +1552,19 @@ body {
     margin: 60px 0px;
   }
 
-  .meet-investor .meet-investor-img {
+  /* .meet-investor .meet-investor-img {
     width: 8rem;
     margin-bottom: 13px;
+  } */
+
+  .meet-investor .industries .service-sub-head {
+    font-size: 14px;
+    margin-left: 1px;
+  }
+
+  .meet-investor .btn-blue1 {
+    font-size: 10px;
+    line-height: 11px;
   }
 
   .meet-investor .meet-investor-heading {
@@ -1733,9 +1800,20 @@ body {
     margin: 60px 0px;
   }
 
-  .meet-investor .meet-investor-img {
+  /* .meet-investor .meet-investor-img {
     width: 9rem;
     margin-bottom: 22px;
+  } */
+
+  .meet-investor .industries .service-sub-head {
+    font-size: 16px;
+    line-height: 28px;
+    margin-left: 0px;
+  }
+
+  .meet-investor .btn-blue1 {
+    font-size: 13px;
+    line-height: 13px;
   }
 
   .meet-investor .meet-investor-heading {
